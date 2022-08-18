@@ -1,0 +1,28 @@
+h1 {
+  color: grey;
+}
+
+input {
+  width: 250px;
+  height: 40px;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+  height: 400px;
+  justify-content: center;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
